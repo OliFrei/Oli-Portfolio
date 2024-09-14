@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oliver Freiberg Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav collapsible">
+        <div class="nav__logo"><a class="nav__logo" href="/">OF</a></div>
+        <span class="nav__toggler"
+          ><i class="icon collapsible__icon fa-solid fa-caret-down"></i
+        ></span>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item button_slide slide_right">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav__item button_slide slide_right">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav__item button_slide slide_right">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HEADING -->
+      <section id="heading">
+        <h1>Hi! My name is Oliver Freiberg</h1>
+        <h2>I am a junior web developer</h2>
+      </section>
+      <!-- ABOUT -->
+      <section id="about">
+        <h3>About</h3>
+        <div class="about_container">
+          <span
+            ><img
+              src="/images/profile_pic.jpg"
+              alt="Profile picture of Oliver"
+              class="profile_pic"
+          /></span>
+          <span
+            ><p class="about_text">
+              I'm a software engineer who loves building cool things with code.
+              I am also an educator, with experience in Project Management.
+            </p></span
+          >
+        </div>
+      </section>
+      <!-- PROJECTS -->
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="projects_gallery">
+          <div class="project_container">
+            <div class="project_image">
+              <img
+                src="/images/blog-layout.png"
+                alt=""
+                class="site_image"
+                loading="lazy"
+              />
+            </div>
+            <div class="projectText">
+              <h4 class="projectDate">14 September 2024</h4>
+              <h4 class="projectTitle">Home Studio Home</h4>
+              <p class="projectDescription">
+                A blog on music production in a home studio.
+              </p>
+              <div class="iconLinks">
+                <div class="links button_slide slide_right">
+                  <a
+                    href="https://github.com/OliFrei/Blog-Layout"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="icon_link fa-brands fa-github"></i>
+                    <p class="iconLinksText">GitHub</p></a
+                  >
+                </div>
+                <div class="links button_slide slide_right">
+                  <a
+                    href="https://homestudiohome.netlify.app/home"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="icon_link fa-solid fa-link"></i>
+                    <p class="iconLinksText">Live</p></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project_container">
+            <div class="project_image">
+              <img
+                src="/images/cloud_website.png"
+                alt=""
+                class="site_image"
+                loading="lazy"
+              />
+            </div>
+            <div class="projectText">
+              <h4 class="projectDate">22 July 2024</h4>
+              <h4 class="projectTitle">Cloud Hosting Website</h4>
+              <p class="projectDescription">
+                A website to purchase cloud hosting services.
+              </p>
+              <div class="iconLinks">
+                <div class="links button_slide slide_right">
+                  <a
+                    href="https://github.com/OliFrei/olify"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="icon_link fa-brands fa-github"></i>
+                    <p class="iconLinksText">GitHub</p></a
+                  >
+                </div>
+                <div class="links button_slide slide_right">
+                  <a
+                    href="https://olivercloudhosting.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="icon_link fa-solid fa-link"></i>
+                    <p class="iconLinksText">Live</p></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project_container">
+            <div class="project_image">
+              <img
+                src="/images/search_engine.png"
+                alt=""
+                class="site_image"
+                loading="lazy"
+              />
+            </div>
+            <div class="projectText">
+              <h4 class="projectDate">6 June 2024</h4>
+              <h4 class="projectTitle">Search Engine</h4>
+              <p class="projectDescription">
+                A mockup of a famous search engine.
+              </p>
+            </div>
+            <div class="iconLinks">
+              <div class="links button_slide slide_right">
+                <a
+                  href="https://github.com/OliFrei/Search-Engine"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="icon_link fa-brands fa-github"></i>
+                  <p class="iconLinksText">GitHub</p></a
+                >
+              </div>
+              <div class="links button_slide slide_right">
+                <a
+                  href="https://olifreisearch.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="icon_link fa-solid fa-link"></i>
+                  <p class="iconLinksText">Live</p></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT -->
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="iconLinks">
+          <div class="contact button_slide slide_right">
+            <a href="mailto:oliverfrei97@gmai.com"
+              ><i class="icon_link fa-solid fa-envelope"></i>
+              <p class="iconLinksText">E-mail me</p></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/65a50aaa9d.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
