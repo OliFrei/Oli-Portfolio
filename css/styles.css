@@ -266,6 +266,7 @@ section {
 .projects_gallery {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .project_container {
